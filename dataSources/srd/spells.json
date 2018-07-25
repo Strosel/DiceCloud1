@@ -374,7 +374,7 @@
 	{
 		"castingTime": "action",
 		"description": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
-		"duration": "up to 1 minutes",
+		"duration": "up to 1 minute",
 		"level": 3,
 		"range": "self (30-foot radius)",
 		"school": "Evocation",
@@ -417,6 +417,22 @@
 			"somatic": true,
 			"concentration": true,
 			"material": "a drop of blood"
+		}
+	},
+	{
+		"castingTime": "bonus action",
+		"description": "The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points or fewer, you banish it. If the target is native to a different plane of existence than the one you’re on, the target disappears, returning to its home plane. If the target is native to the plane you’re on, the creature vanishes into a harm less demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+		"duration": "up to 1 minute",
+		"level": 5,
+		"range": "self",
+		"school": "Abjuration",
+		"ritual": false,
+		"name": "Banishing Smite",
+		"components": {
+			"verbal": true,
+			"somatic": false,
+			"concentration": true,
+			"material": ""
 		}
 	},
 	{
@@ -468,6 +484,22 @@
 	},
 	{
 		"castingTime": "action",
+		"description": "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast’s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the beast’s senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings.",
+		"duration": "up to 1 hour",
+		"level": 2,
+		"range": "Touch",
+		"school": "Divination",
+		"ritual": true,
+		"name": "Beast Sense",
+		"components": {
+			"verbal": false,
+			"somatic": true,
+			"concentration": true,
+			"material": ""
+		}
+	},
+	{
+		"castingTime": "action",
 		"description": "You touch a creature, and that creature must succeed on a DC {DC} Wisdom saving throw or become cursed for the duration of the spelL When you cast this spell, choose the nature of the curse from the following options:\n\n* Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.\n\n* While cursed, the target has disadvantage on attack rolls against you.\n\n* While cursed, the target must make a DC {DC} Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n\n* While the target is cursed, your attacks and spells deal an extra ld8 necrotic damage to the target.\n\nA remove curse spell ends this effect. At the DM’s option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse’s effect.\n\n***At Higher Levels.*** If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn’t require concentration. ",
 		"duration": "Concentration, up to 1 minute",
 		"level": 3,
@@ -479,6 +511,22 @@
 			"verbal": true,
 			"somatic": true,
 			"concentration": true
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell’s duration, and it moves at your command, mimicking the movements of your own hand. The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity o f 10 (+0). The hand doesn’t fill its space. When you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.\n**Clenched Fist.** The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes 4d8 force damage.\n**Forceful Hand.** The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand’s Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it.\n**Grasping Hand.** The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand’s Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability modifier.\n**Interposing Hand.** The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand’s space if its Strength score is less than or equal to the hand’s Strength score. If its Strength score is higher than the hand’s Strength score, the target can move toward you through the hand’s space, but that space is difficult terrain for the target.\n***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th.",
+		"duration": "up to 1 minute",
+		"level": 5,
+		"range": "120 feet",
+		"school": "Evocation",
+		"ritual": false,
+		"name": "Bigby's Hand",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": true,
+			"material": "an eggshell and a snakeskin glove"
 		}
 	},
 	{
@@ -514,6 +562,22 @@
 	},
 	{
 		"castingTime": "action",
+		"description": "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.",
+		"duration": "1 round",
+		"level": 0,
+		"range": "self",
+		"school": "Abjuration",
+		"ritual": false,
+		"name": "Blade Ward",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": false,
+			"material": ""
+		}
+	},
+	{
+		"castingTime": "action",
 		"description": "You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.\n\n***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
 		"duration": "Concentration, up to 1 minute",
 		"level": 1,
@@ -543,6 +607,23 @@
 			"concentration": false
 		}
 	},
+	{
+		"castingTime": "bonus action",
+		"description": "The next time you hit a creature with a melee weapon attack during this spell’s duration, your weapon flares with bright light, and the attack deals an extra 3d8 radiant damage to the target. Additionally, the target must succeed on a Constitution saving throw or be blinded until the spell ends. A creature blinded by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded.",
+		"duration": "up to 1 minute",
+		"level": 3,
+		"range": "self",
+		"school": "Evocation",
+		"ritual": false,
+		"name": "Blinding Smite",
+		"components": {
+			"verbal": true,
+			"somatic": false,
+			"concentration": true,
+			"material": ""
+		}
+	},
+
 	{
 		"castingTime": "action",
 		"description": "You can blind or deafen a foe. Choose one creature that you can see within range to make a DC {DC} Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a DC {DC} Constitution saving throw. On a success, the spell ends.\n\n***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
