@@ -87,6 +87,22 @@
 		}
 	},
 	{
+		"CastingTime": "action",
+		"Description": "This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwhise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harm the target, the spell ends. \n\n***At higher levels:*** When you cast the spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot above 1st.",
+		"Duration": "24 hours",
+		"Level": 1,
+		"Range": "30 feet",
+		"School": "Enchantment",
+		"Ritual": false,
+		"Name": "Animal Friendship",
+		"Components": {
+			"Verbal": true,
+			"Somantic": true,
+			"Concentration": false,
+			"Material": "a morsel of food"
+		}
+	},
+	{
 		"castingTime": "action",
 		"description": "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as “a man or woman dressed in the uniform of the town guard” or “a red-haired dwarf wearing a pointed hat.” You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.\n\nWhen the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn’t reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.\n\n***At Higher Levels.***If you cast this spell using a spell slot of 3nd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.",
 		"duration": "24 hours",
@@ -213,6 +229,22 @@
 	},
 	{
 		"castingTime": "action",
+		"description": "You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost. The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.\n Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.",
+		"duration": "up to 10 minutes",
+		"level": 6,
+		"range": "500 feet",
+		"school": "Conjuration",
+		"ritual": false,
+		"name": "Arcane Gate",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": true,
+			"material": ""
+		}
+	},
+	{
+		"castingTime": "action",
 		"description": "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell’s duration, and it moves at your command, mimicking the movements of your own hand.\n\nThe hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn’t fill its space.  When you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.\n\nClenched Fist. The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for  the hand using your game statistics. On a hit, the target takes 4d8 force damage.\n\nForceful Hand. The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand’s Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it.\n\nGrasping Hand. The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand’s Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability modifier.\n\nInterposing Hand. The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can’t move through the hand’s space if its Strength score is less than or equal to the hand’s Strength score. If its Strength score is higher than the hand’s Strength score, the target can move toward you through the hand’s space, but that space is difficult terrain for the target.\n\nAt \n\nHigher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th.",
 		"duration": "Concentration, up to 1 minute",
 		"level": 5,
@@ -241,6 +273,38 @@
 			"somatic": true,
 			"concentration": false,
 			"material": "gold dust worth at least 25 gp, which the spell consumes"
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage. \n\n***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st.",
+		"duration": "1 hour",
+		"level": 1,
+		"range": "self",
+		"school": "Abjuration",
+		"ritual": false,
+		"name": "Armor of Agathys",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": false,
+			"material": "a cup of water"
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "You invoke the power of Hadar, the Dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes 2d6 necrotic damage and can’t take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect. \n\n***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+		"duration": "Instantaneous",
+		"level": 1,
+		"range": "self (10-foot radius)",
+		"school": "Conjuration",
+		"ritual": false,
+		"name": "Arms of Hadar",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": false,
+			"material": ""
 		}
 	},
 	{
@@ -273,6 +337,54 @@
 			"somatic": true,
 			"concentration": false,
 			"material": "specially marked sticks, bones, or similar tokens worth at least 25 gp"
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.",
+		"duration": "up to 10 minutes",
+		"level": 4,
+		"range": "self (30-foot radius)",
+		"school": "Abjuration",
+		"ritual": false,
+		"name": "Aura of Life",
+		"components": {
+			"verbal": true,
+			"somatic": false,
+			"concentration": true,
+			"material": ""
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can’t become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: blinded, charm ed, deafened, frightened, paralyzed, poisoned, and stunned.",
+		"duration": "up to 10 minutes",
+		"level": 4,
+		"range": "self (30-foot radius)",
+		"school": "Abjuration",
+		"ritual": false,
+		"name": "Aura of Purity",
+		"components": {
+			"verbal": true,
+			"somatic": false,
+			"concentration": true,
+			"material": ""
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
+		"duration": "up to 1 minutes",
+		"level": 3,
+		"range": "self (30-foot radius)",
+		"school": "Evocation",
+		"ritual": false,
+		"name": "Aura of Vitality",
+		"components": {
+			"verbal": true,
+			"somatic": false,
+			"concentration": false,
+			"material": ""
 		}
 	},
 	{
