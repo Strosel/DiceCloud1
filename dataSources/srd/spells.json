@@ -769,6 +769,22 @@
 	},
 	{
 		"castingTime": "action",
+		"description": "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose. \n***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+		"duration": "Instantaneous",
+		"level": 1,
+		"range": "90 feet",
+		"school": "Evocation",
+		"ritual": false,
+		"name": "Chromatic Orb",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": false,
+			"material": "a diamond worth at least 50 gp"
+		}
+	},
+	{
+		"castingTime": "action",
 		"description": "A sphere of negative energy ripples out in a 60-foot radius sphere from a point within range. Each creature in that area must make a DC {DC} Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.\n\n***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th.",
 		"duration": "Instantaneous",
 		"level": 6,
@@ -781,6 +797,22 @@
 			"somatic": true,
 			"concentration": false,
 			"material": "the powder of a crushed black pearl worth at least 500 gp"
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw.",
+		"duration": "up to 10 minutes",
+		"level": 5,
+		"range": "self (30-foot radius)",
+		"school": "Abjuration",
+		"ritual": false,
+		"name": "Circle of Power",
+		"components": {
+			"verbal": true,
+			"somatic": false,
+			"concentration": true,
+			"material": ""
 		}
 	},
 	{
@@ -813,6 +845,22 @@
 			"somatic": true,
 			"concentration": false,
 			"material": "a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a huge urn, coffin, mud-filled cyst in the ground, or crystal container filled with salt water"
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes 4d4 slashing damage when it enters the spell’s area for the first time on a turn or starts its turn there.\n***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.",
+		"duration": "up to 1 minute",
+		"level": 2,
+		"range": "60 feet",
+		"school": "Conjuration",
+		"ritual": false,
+		"name": "Cloud of Daggers",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": true,
+			"material": "a sliver of glass"
 		}
 	},
 	{
@@ -893,6 +941,22 @@
 		}
 	},
 	{
+		"castingTime": "bonus action",
+		"description": "You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is m ore than 30 feet away from you; if it succeeds on this saving throw, this spell doesn’t restrict the target’s movement for that turn. The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.",
+		"duration": "up to 1 minute",
+		"level": 1,
+		"range": "30 feet",
+		"school": "Enchantment",
+		"ritual": false,
+		"name": "Compelled Duel",
+		"components": {
+			"verbal": true,
+			"somatic": false,
+			"concentration": true,
+			"material": ""
+		}
+	},
+	{
 		"castingTime": "action",
 		"description": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn’t decode secret messages in a text or a glyph, such as an arcane sigil, that isn’t part of a written language.",
 		"duration": "1 hour",
@@ -906,6 +970,22 @@
 			"somatic": true,
 			"concentration": false,
 			"material": "a pinch of soot and salt"
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can’t be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving to try to end the effect. A target isn’t compelled to move into an obviously deadly hazard, such as a fire or pit, but it will provoke opportunity attacks to move in the designated direction.",
+		"duration": "up to 1 minute",
+		"level": 4,
+		"range": "30 feet",
+		"school": "Enchantment",
+		"ritual": false,
+		"name": "Compulsion",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": true,
+			"material": ""
 		}
 	},
 	{
@@ -953,6 +1033,22 @@
 			"verbal": true,
 			"somatic": true,
 			"concentration": true
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes 3d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component.",
+		"duration": "Instantaneous",
+		"level": 3,
+		"range": "self (60-foot cone)",
+		"school": "Conjuration",
+		"ritual": false,
+		"name": "Conjure Barrage",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": false,
+			"material": "one piece of ammunition or a thrown weapon"
 		}
 	},
 	{
@@ -1014,6 +1110,22 @@
 			"verbal": true,
 			"somatic": true,
 			"concentration": true
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40-foot-radius. 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes 8d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the ammunition or weapon.",
+		"duration": "Instantaneous",
+		"level": 5,
+		"range": "150 feet",
+		"school": "Conjuration",
+		"ritual": false,
+		"name": "Conjure Volley",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": false,
+			"material": "one piece of ammunition or one thrown weapon"
 		}
 	},
 	{
@@ -1128,6 +1240,38 @@
 	},
 	{
 		"castingTime": "action",
+		"description": "You plant four pieces of nonmagical ammunition—arrows or crossbow bolts—in the ground within range and lay magic upon them to protect an area. Until the spell ends, whenever a creature other than you comes within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity saving throw or take 1d6 piercing damage. The piece of ammunition is then destroyed. The spell ends when no ammunition remains. When you cast this spell, you can designate any creatures you choose, and the spell ignores them. \n***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the amount of ammunition that can be affected increases by two for each slot level above 2nd.",
+		"duration": "8 hours",
+		"level": 2,
+		"range": "5 feet",
+		"school": "Transmutation",
+		"ritual": false,
+		"name": "Cordon of Arrows",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": false,
+			"material": "four or more arrows or bolts"
+		}
+	},
+	{
+		"castingTime": "reaction, which you take when you see a creature within 60 feet of you casting a spell",
+		"description": "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is  casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a success, the creature’s spell fails and has no effect.\n***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.",
+		"duration": "Instantaneous",
+		"level": 3,
+		"range": "60 feet",
+		"school": "Abjuration",
+		"ritual": false,
+		"name": "Counterspell",
+		"components": {
+			"verbal": false,
+			"somatic": true,
+			"concentration": false,
+			"material": ""
+		}
+	},
+	{
+		"castingTime": "action",
 		"description": "You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn’t go bad.",
 		"duration": "Instantaneous",
 		"level": 3,
@@ -1187,6 +1331,38 @@
 			"somatic": true,
 			"concentration": false,
 			"material": "a tiny piece of matter of the same type of the item you plan to create"
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes. The charm ed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach. On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.",
+		"duration": "up to 1 minute",
+		"level": 2,
+		"range": "120 feet",
+		"school": "Enchantment",
+		"ritual": false,
+		"name": "Crown of Madness",
+		"components": {
+			"verbal": true,
+			"somatic": true,
+			"concentration": true,
+			"material": ""
+		}
+	},
+	{
+		"castingTime": "action",
+		"description": "Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack.",
+		"duration": "up to 1 minute",
+		"level": 3,
+		"range": "self",
+		"school": "Evocation",
+		"ritual": false,
+		"name": "Crusader's Mantle",
+		"components": {
+			"verbal": true,
+			"somatic": false,
+			"concentration": true,
+			"material": ""
 		}
 	},
 	{
